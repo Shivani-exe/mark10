@@ -29,7 +29,7 @@ function onClickHandler()
         if(billAmount.value > 0)
         {
             
-            if(Number(cashGiven.value) > Number(billAmount.value))
+            if(Number(cashGiven.value) >= Number(billAmount.value))
             {
                 
                 var amountToBeReturned=cashGiven.value-billAmount.value;
