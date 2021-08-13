@@ -34,19 +34,20 @@ function onClickHandler()
                 
                 var amountToBeReturned=cashGiven.value-billAmount.value;
                 calculate(amountToBeReturned);
+                outputText.innerText= "Here is your return!😀";
             }
             else 
             {
-                outputText.innerText="Do you want to wash utensils?";
+                outputText.innerText="Do you want to wash utensils?😏";
             }
         }
         else{
-            outputText.innerText= "Invalid Bill Amount";
+            outputText.innerText= "Invalid Bill Amount😑";
         }
     }
     else
     {
-            outputText.innerText= "Please enter Bill Amount";
+            outputText.innerText= "Please enter Bill Amount😑";
     }
 
 }

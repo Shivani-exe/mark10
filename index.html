@@ -7,16 +7,22 @@
     <title>Cash Register</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1 class="container">Cash Register Manager</h1>
-    <p class="container-para">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
-    <label for="bill-amount">Bill Amount</label>
+<body class="container">
+    <div class="container-box">
+    <h1 class="container-heading">Cash Register Manager</h1>
+    <p class="container-para">Enter the bill amount and 
+        cash given by the<br>customer and know minimum number
+         of <br>notes to return.</p>
+    <label for="bill-amount" class="label-bill-amount">Bill Amount</label>
     <input type="text" class="bill-amount"/>
+    <br>
     <label  for="cash-given" class="label-cash-given">Cash Given</label>
+    
     <input  type="text" class="cash-given"/>
+    <br>
     <button id="btn-check">Check</button>
     <table  class="change-table">
-        <caption>
+        <caption id="change-table-caption">
             Return Change:
         </caption>
         <tr>
@@ -42,5 +48,6 @@
     </table>
     <div id='output-text'></div>
     <script src="app.js" type="text/javascript"></script>
+    </div>
 </body>
 </html>

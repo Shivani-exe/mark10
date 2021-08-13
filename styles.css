@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+.container{
+    color:turquoise;
+    margin:2rem;
+    margin-left:27rem;
+    margin-right: 20rem;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 3rem;
+    margin-top: 0rem;;
+
+    padding: 2rem;
+    background-color: teal;
+    
+}
+.container-heading{
+    padding-left:0.5rem;
+    margin: 1rem;
+}
+.container-box{
+    border-width: 0.5rem;
+    margin:0rem;
+    border-style: solid;
+    border-color: turquoise;
+    background-color: beige;
+
+}
+
+.container-para{
+    padding: 2rem;
+}
+.bill-amount{
+    margin: 2rem;
+    border-color:turquoise;
+    border-radius: 0.5rem;
+    border-style: solid;
+    color:turquoise;
+    outline: none;
+    font-weight: 2rem;
+
+}
+.cash-given{
+    margin: 2rem;
+    border-color:turquoise;
+    border-radius: 0.5rem;
+    border-style: solid;
+    color:turquoise;
+    outline: none;
+
+}
+.label-cash-given{
+ margin:2rem;
+}
+.label-bill-amount{
+margin: 2rem;
+}
+#btn-check{
+    border:turquoise;
+    border-style: solid;
+    border-radius: 2rem;
+    background-color:beige;
+    font-family: 'Comfortaa', cursive;
+    color: turquoise;
+    margin-left: 10rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+
+    
+}
+.change-table{
+border-collapse: collapse;
+border: 2px solid turquoise;
+margin: 1rem;
+margin-left: 3rem;
+width:75%;
+
+}
+#change-table-caption{
+margin-bottom:0.5rem;
+}
+#output-text{
+    margin-left: 8rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
